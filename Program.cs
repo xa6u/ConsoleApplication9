@@ -33,6 +33,27 @@ namespace ConsoleApplication1
             Console.WriteLine("a+b={0} sum={1} equal={2}", a+b, sum, equal);
             Console.WriteLine();
             Console.WriteLine();
+
+            char symbol = 'c';
+            Console.WriteLine("symbol = {0}, code = {1}", symbol, (int)symbol);
+            Console.WriteLine();
+
+            string firstName = "Sergey";
+            string lastName = "Karabuta";
+            Console.WriteLine("Hello, {0}!\n", firstName);
+            string fullName = firstName + " " + lastName;
+            Console.WriteLine("Your full name is {0}", fullName);
+            Console.WriteLine();
+
+
+            int s = 0xFF;
+            Console.WriteLine(s);
+            Console.WriteLine();
+
+
+            double s1 = 1.23e+6;
+            Console.WriteLine(s1);
+            Console.WriteLine();
         }
     }
 }

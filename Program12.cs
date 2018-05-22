@@ -22,12 +22,12 @@ namespace ConsoleApplication2
 
 
             //Exersise 2.9
-            string firstName;
-            string lastName;
-            int year;
-            char sex;
-            long idNuber;
-            string ssex,siNumber, sCardNumber;
+            //string firstName;
+            //string lastName;
+            //int year;
+            //char sex;
+            //long idNuber;
+            //string ssex,siNumber, sCardNumber;
 
             //Console.Write("Enter you first name: ");
             //firstName = Console.ReadLine();
@@ -36,10 +36,20 @@ namespace ConsoleApplication2
             //Console.Write("Enter the year when you born (YYYY format): ");
             //year = Console.Read();
             //Console.Write("Enter your sex: ");
-            ssex = Console.ReadLine();
-            sex = ssex[0];
-            Console.ReadLine()
+            //ssex = Console.ReadLine();
+            //sex = ssex[0];
 
+            Type type = typeof(int);
+
+            Console.WriteLine($"Type Name = {type.FullName}");
+            Console.WriteLine($"size = {size}");
+            Console.WriteLine($"Max = {int.MaxValue}");
+            Console.WriteLine($"Min = {int.MinValue}");
+
+
+            Console.ReadLine();
+                     
+                                
         }
     }
 }

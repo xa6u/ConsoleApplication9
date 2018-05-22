@@ -1,0 +1,87 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Exersise 2.7 Changes value of 2 variables without third variable.
+            //int a = 4;
+            //int b = 5;
+
+            //a = a + b;
+            //b = a - b;
+            //a = a - b;
+            //Console.WriteLine("Variable a is: {0}\nVariable b is: {1}", a, b);
+            //Console.ReadLine();
+
+
+            //Exersise 2.9
+            //string firstName;
+            //string lastName;
+            //int year;
+            //char sex;
+            //long idNuber;
+            //string ssex,siNumber, sCardNumber;
+
+            //Console.Write("Enter you first name: ");
+            //firstName = Console.ReadLine();
+            //Console.Write("Enter your last name: ");
+            //lastName = Console.ReadLine();
+            //Console.Write("Enter the year when you born (YYYY format): ");
+            //year = Console.ReadLine();
+            //Console.Write("Enter your sex: ");
+            //ssex = Console.ReadLine();
+            //sex = ssex[0];
+
+
+
+            //Type type = typeof(int);
+            //int size = sizeof(int);
+
+            //Console.WriteLine($"Type Name = {type.FullName}");
+            //Console.WriteLine($"size = {size}");
+            //Console.WriteLine($"Max = {int.MaxValue}");
+            //Console.WriteLine($"Min = {int.MinValue}");
+
+
+            //Console.WriteLine("{0:C2}", 158.893);
+
+
+            ////DebitCard number for exersise 2.4
+            //ulong debitCard = 1234123412341234;
+            //Console.WriteLine("{0:#### #### #### ####}", debitCard);
+
+            //int a, b, c;
+
+            //a = int.Parse(Console.ReadLine());
+            //b = int.Parse(Console.ReadLine());
+            //c = int.Parse(Console.ReadLine());
+            //Console.Write("Suum of the 3 digits = {0}", a + b + c);
+
+            //int radius;
+
+            //radius = int.Parse(Console.ReadLine());
+            //Console.WriteLine("The perimeter of circle with radius {0} = {1}", radius, 2 * Math.PI * radius);
+            //Console.WriteLine("The area of circle with radius {0} = {1}", radius, Math.Pow((Math.PI * radius), 2));
+
+            int a = 234234;
+            double b = 356.6545;
+            double c = -678.6786;
+            Console.WriteLine("{0,-10}{1,-10}{2,-10} ", a, b, c);
+
+            Console.WriteLine();
+
+            Console.ReadLine();
+
+
+
+
+        }
+    }
+}

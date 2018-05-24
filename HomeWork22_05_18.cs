@@ -14,10 +14,10 @@ namespace ConsoleApp3
             int n1 = 234234;
             double n2 = 356.6545;
             double n3 = -678.6786;
-            Console.WriteLine("{0,-10}{1,-10}{2,-10} ", n1, n2, n3);
+            Console.WriteLine("{0,-10:X}{1,-10:F2}{2,-10:F2} ", n1, n2, n3);
             Console.ReadLine();
 
-            //Exersise 6(workshop) Prints the greater number
+            ////Exersise 6(workshop) Prints the greater number
             int a, b;
             int maxInt, minInt;
 
@@ -33,7 +33,7 @@ namespace ConsoleApp3
             Console.WriteLine("Bigger one  {0}", maxInt);
             Console.ReadLine();
 
-            //Exersise 1.6 Draw rhombus 
+            ////Exersise 1.6 Draw rhombus 
             Char c = '*';
             Console.WriteLine("{0,20}", c);
             Console.WriteLine("{0,15}{0,10}", c);
